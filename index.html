@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор стоимости заказа</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Калькулятор стоимости заказа</h1>
+        <label for="product">Выберите энергетик:</label>
+        <select id="product">
+            <option value="110">Black Monster - 110 рублей</option>
+            <option value="60">TORNADO - 60 рублей</option>
+            <option value="200">Red Bull - 200 рублей</option>
+        </select>
+        <label for="quantity">Введите количество товара:</label>
+        <input type="text" id="quantity" placeholder="Количество">
+        <button id="calculate">Рассчитать стоимость</button>
+        <p id="result"></p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
